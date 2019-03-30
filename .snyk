@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - makeapi-client > hawk:
+        patched: '2019-03-30T07:01:22.844Z'
+  'npm:mime:20170907':
+    - prerender-node > request > mime:
+        patched: '2019-03-30T07:01:22.844Z'
+    - makeapi-client > request > mime:
+        patched: '2019-03-30T07:01:22.844Z'
+    - bower > insight > request > mime:
+        patched: '2019-03-30T07:01:22.844Z'
+    - makeapi-client > request > form-data > mime:
+        patched: '2019-03-30T07:01:22.844Z'
+  'npm:minimatch:20160620':
+    - webmaker-translation-stats > mocha > glob > minimatch:
+        patched: '2019-03-30T07:01:22.844Z'
+  'npm:qs:20140806-1':
+    - makeapi-client > request > qs:
+        patched: '2019-03-30T07:01:22.844Z'
+  'npm:request:20160119':
+    - makeapi-client > request:
+        patched: '2019-03-30T07:01:22.844Z'
