@@ -42,7 +42,7 @@
     "prerender-node": "1.0.4",
     "proxy-middleware": "0.5.0",
     "rtltr-for-less": "0.0.6",
-    "sequelize": "1.7.0-rc1",
+    "sequelize": "5.3.0",
     "sqlite3": "2.1.17",
     "time-grunt": "^0.3.1",
     "uuid": "1.4.x",
