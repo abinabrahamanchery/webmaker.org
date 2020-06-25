@@ -36,7 +36,7 @@
     "moment": "2.2.1",
     "mox-server": "https://github.com/Pomax/mox-server/archive/master.tar.gz",
     "mysql": "2.0.x",
-    "newrelic": "1.8.0",
+    "newrelic": "1.13.3",
     "noxmox": "0.2.x",
     "nunjucks": "1.0.5",
     "prerender-node": "1.0.4",
